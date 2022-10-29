@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>İş Başvuru Formu</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        
+        <form method="POST" action="#">
+            <table border="1" align="center" cellpadding="3">
+                
+                <tr>
+                    <td colspan="2" align="center">
+                        <h1>İş Başvuru Formu</h1>
+                    </td>
+                </tr>
+                
+                    <tr>
+                        <td>
+                      
+                    <div style="text-align: center;height: 120px; line-height: 120px; width: 120px; border: 2px solid;float: left;">FOTOĞRAF</div> 
+                        </td>
+                    </tr>
+            
+                <tr>
+                    <td>ADINIZ</td>
+                    <td><input type="text" name="adı"></td>
+                </tr>
+                <tr>
+                    <td>SOYADINIZ</td>
+                    <td><input type="text" name="soyadı"></td>
+                </tr>
+                <tr>
+                    <td>CİNSİYETİNİZ</td>
+                    <td>
+                        <input type="radio" name="cinsiyet" value="kadın">KADIN
+                        <input type="radio" name="cinsiyet" value="erkek">ERKEK
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>TELEFON NUMARANIZ</td>
+                    <td><input type="text" name="telno"></td>
+                </tr>
+                <tr>
+                    <td>E POSTA </td>
+                    <td><input type="text" name="eposta"></td>
+                </tr>
+                <tr>
+                    <td>DOĞUM TARİHİ</td>
+                    <td><input type="date" name="dtarih"></td>
+                </tr>
+                <td>MEDENİ HALİNİZ</td>
+                <td>
+                    <select name="medenihaliniz">
+                        <option value="00">EVLİ</option>
+                        <option value="00">BEKAR</option>
+                    </select>
+                </td>
+                <tr>
+                    <td>DOĞUM YERİ</td>
+                    <td>
+                        <select name="dogumyeri">
+                            <option value="10">BALIKESİR</option>
+                            <option value="06">ANKARA</option>
+                            <option value="34">İSTANBUL</option>
+                            <option value="43">KÜTAHYA</option>
+                            <option value="35">İZMİR</option>
+                            <option value="45">MANİSA</option>
+                            <option value="1">ADANA</option>
+                            <option value="10">BALIKESİR</option>
+                            <option value="17">ÇANAKKALE</option>
+                            <option value="26">ESKİŞEHİR</option>
+                            <option value="68">AKSARAY</option>
+                            <option value="00">DİĞER</option>
+                        </select>
+                    </td>
+                    <br/>
+                    <tr>
+                   <td>BİLGİSAYAR BİLGİ SEVİYENİZ <br/> </td>
+                   <td>
+                    <input type="radio" name="bilgi" value="a"/>AZ
+                    <input type="radio" name="bilgi" value="o"/>ORTA
+                    <input type="radio" name="bilgi" value="c"/>ÇOK
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>ÇALIŞMA TERCİHİNİZ <br/> </td>
+                        <td>
+                         <input type="radio" name="bilgi" value="a"/>PART TİME
+                         <input type="radio" name="bilgi" value="o"/>TAM ZAMANLI
+                        
+                         </td>
+                         </tr>
+                    <tr>
+                        <td>HOBİLERİNİZ <br/> </td>
+                        <td>
+           <input type="checkbox" name="hobileriniz[]" value="motosiklet"/>MOTOSİKLET KULLANMAK
+           <input type="checkbox" name="hobileriniz[]" value="film"/>FİLM İZLEMEK<br/>
+           <input type="checkbox" name="hobileriniz[]" value="yüzme"/> YÜZMEK
+           <input type="checkbox" name="hobileriniz[]" value="kitap"/>KİTAP OKUMAK<br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>REFERANSLAR</td>
+                        <td>
+                            <textarea cols="70" rows="4"></textarea>
+                        </td>
+                </tr>
+                <tr>
+                    <td>YABANCI DİL VE SEVİYESİ</td>
+                    <td>
+                        <textarea cols="70" rows="6"></textarea>
+                    </td>
+            </tr>
+            <tr>
+                <td>EKLEMEK İSTEDİĞİNİZ BİLGİLER</td>
+                <td>
+                    <textarea cols="70" rows="7"></textarea>
+                </td>
+        </tr>
+            </table>
+        </form>
+    </body>
+</html>
